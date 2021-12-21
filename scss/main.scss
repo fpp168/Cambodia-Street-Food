@@ -1,0 +1,90 @@
+$navColor: #0052b4;
+
+.activexd {
+  background: red;
+}
+
+.logoxd img:hover {
+  filter: brightness(120%) contrast(100%) saturate(2.2);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer, body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  body img {
+    max-height: 120px;
+  }
+  .flexnav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: $navColor;
+    a, li {
+      display: flex;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-size: 1rem;
+    }
+    li {
+      padding: 1rem;
+    }
+    a {
+      :hover {
+        background: red;
+        font-size: 1.2rem;
+        padding: 1rem;
+      }
+      
+    }
+  }
+  
+}
+
+@media only screen and (min-width: 769px) {
+  body img {
+    max-height: 15vh;
+  }
+  .flexnav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: $navColor;
+    a, li {
+      display: flex;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-size: 1rem;
+    }
+    li {
+      padding: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    a {
+      :hover {
+        background: red;
+        font-size: 1rem;
+        padding: 0.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      
+    }
+  }
+  
+}

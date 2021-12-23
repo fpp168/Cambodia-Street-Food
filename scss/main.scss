@@ -1,90 +1,44 @@
-$navColor: #0052b4;
-
-.activexd {
-  background: red;
-}
-
-.logoxd img:hover {
-  filter: brightness(120%) contrast(100%) saturate(2.2);
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+$navColor: #1761B0;
+$actColor: #D2292D;
+$hovTxtColor: white;
 
 footer, body {
   margin: 0;
   padding: 0;
 }
 
+.bg-nav {
+  background-color: $navColor;
+}
+
+.drop-white {
+  border: 1px solid $hovTxtColor;
+}
+
+.navbar-brand {
+    img {
+      max-width: 200px;
+    }
+    img:hover {
+      filter: invert(100%) drop-shadow(5px 5px 5px black)
+      ;
+    }
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    color: $hovTxtColor;
+  }
+  .dropdown-item:hover, .dropdown-item.active {
+    background-color: $actColor;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
-  body img {
-    max-height: 120px;
-  }
-  .flexnav {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: $navColor;
-    a, li {
-      display: flex;
-      text-decoration: none;
-      margin: 0;
-      padding: 0;
-      color: white;
-      font-size: 1rem;
-    }
-    li {
-      padding: 1rem;
-    }
-    a {
-      :hover {
-        background: red;
-        font-size: 1.2rem;
-        padding: 1rem;
-      }
-      
-    }
-  }
-  
+
 }
 
 @media only screen and (min-width: 769px) {
-  body img {
-    max-height: 15vh;
-  }
-  .flexnav {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: $navColor;
-    a, li {
-      display: flex;
-      text-decoration: none;
-      margin: 0;
-      padding: 0;
-      color: white;
-      font-size: 1rem;
-    }
-    li {
-      padding: 0.5rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-    a {
-      :hover {
-        background: red;
-        font-size: 1rem;
-        padding: 0.8rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
-      
-    }
-  }
   
 }

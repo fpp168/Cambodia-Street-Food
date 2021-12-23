@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About | Cambodia Street Food</title>
+    <title>About Me | Cam Street Food</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -31,16 +31,33 @@
   </head>
 
   <body id="top">
-    <a href="../index.html" rel="noopener noreferrer" class="logoxd">
-      <div class="flex"><img style="display: flexbox;" src="../img/logo.png" alt="logo" /></div>
-  </a>
-    <nav>
-      <ul class="flexnav">
-        <a href="../index.html"><li>HOME</li></a>
-        <a href="recipe.html"><li>RECIPE</li></a>
-        <a href="about.html" class="activexd"><li>ABOUT</li></a>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+      <a class="navbar-brand" href="../index.html"> <img src="../img/logo.png" alt="" class="logo"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              RECIPE
+            </a>
+            <div class="dropdown-menu text-center bg-nav drop-white" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="maindish.html">Main Dish</a>
+              <a class="dropdown-item" href="appetizer.html">Appetizer</a>
+              <a class="dropdown-item" href="dessert.html">Dessert</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">ABOUT ME <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
     </nav>
+
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-7 mx-auto">Test About</div>
@@ -48,6 +65,6 @@
     </div>
   </body>
   <footer class="text-center">
-    Cambodia Street Food - All right reserved <p><a href="#top">Back to top</a></p>
+    Cambodian Street Food - All right reserved <p><a href="#top">Back to top</a></p>
   </footer>
 </html>

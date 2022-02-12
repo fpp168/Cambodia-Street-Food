@@ -1,5 +1,6 @@
 footer,
-body {
+body,
+div {
   margin: 0;
   padding: 0;
 }
@@ -58,5 +59,20 @@ body {
   padding: 0;
   width: auto;
   height: 50px;
+}
+
+.body {
+  font-family: quicksand;
+}
+
+.body h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ffb4bb;
+}
+
+.nav-flag {
+  height: 1.8rem;
+  width: auto;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,9 +2,11 @@ $navColor: #b0efef;
 $actColor: #d2292d;
 $hovTxtColor: white;
 $navTxtColor: black;
+$homeh1: #ffb4bb;
 
 footer,
-body {
+body,
+div {
   margin: 0;
   padding: 0;
 }
@@ -63,6 +65,20 @@ body {
   padding: 0;
   width: auto;
   height: 50px;
+}
+
+.body {
+  font-family: quicksand;
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: $homeh1;
+  }
+}
+
+.nav-flag {
+  height: 1.8rem;
+  width: auto;
 }
 
 @media only screen and (max-width: 768px) {

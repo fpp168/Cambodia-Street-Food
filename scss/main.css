@@ -42,8 +42,9 @@ body {
 }
 
 .dropdown-menu {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
 }
 
 .dropdown-menu .dropdown-item:hover,

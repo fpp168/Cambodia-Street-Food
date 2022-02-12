@@ -22,19 +22,21 @@ body {
       a:hover {
         color: $actColor !important;
         font-weight: bold;
+        border: none !important;
       }
     }
     li.active {
       a {
         color: $actColor !important;
         font-weight: bold;
+        border: none !important;
       }
     }
   }
 }
 
 .drop-white {
-  border: 1px solid $hovTxtColor;
+  border: 1px solid $navTxtColor !important;
 }
 
 .navbar-brand {

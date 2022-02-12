@@ -41,6 +41,11 @@ body {
           filter: invert(100%) drop-shadow(5px 5px 5px black);
 }
 
+.dropdown-menu {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item.active {
   background-color: #d2292d;

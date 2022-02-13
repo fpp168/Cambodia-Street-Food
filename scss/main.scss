@@ -3,10 +3,11 @@ $actColor: #d2292d;
 $hovTxtColor: white;
 $navTxtColor: black;
 $homeh1: #ffb4bb;
+$bodyFont: "special";
 
 @font-face {
-  font-family: "Quicksand";
-  src: url("https://fonts.googleapis.com/css?family=Quicksand");
+  font-family: "special";
+  src: url("../fonts/Quicksand-VariableFont_wght.ttf");
 }
 
 footer,
@@ -73,7 +74,7 @@ div {
 }
 
 .body {
-  font-family: "Quicksand" !important;
+  font-family: $bodyFont !important;
   h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;

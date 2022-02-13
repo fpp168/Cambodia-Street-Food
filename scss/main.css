@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Quicksand";
-  src: url("https://fonts.googleapis.com/css?family=Quicksand");
+  font-family: "special";
+  src: url("../fonts/Quicksand-VariableFont_wght.ttf");
 }
 
 footer,
@@ -67,7 +67,7 @@ div {
 }
 
 .body {
-  font-family: "Quicksand" !important;
+  font-family: "special" !important;
 }
 
 .body h2 {

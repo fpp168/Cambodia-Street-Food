@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("https://fonts.googleapis.com/css?family=Quicksand");
+}
+
 footer,
 body,
 div {
@@ -62,7 +67,7 @@ div {
 }
 
 .body {
-  font-family: quicksand;
+  font-family: "Quicksand" !important;
 }
 
 .body h2 {

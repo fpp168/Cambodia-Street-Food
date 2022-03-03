@@ -4,6 +4,7 @@ $hovTxtColor: white;
 $navTxtColor: black;
 $homeh1: #ffb4bb;
 $bodyFont: "special";
+$backgroundcol: white;
 
 @font-face {
   font-family: "special";
@@ -18,7 +19,7 @@ div {
 }
 
 body {
-  background-color: #fff1f2;
+  background-color: $backgroundcol;
 }
 
 .bg-nav {
@@ -138,7 +139,7 @@ body {
     background: #ffb4bb;
   }
   .welcome-text {
-    background-color: #fff1f2;
+    background-color: $backgroundcol;
   }
 
   .link-box {

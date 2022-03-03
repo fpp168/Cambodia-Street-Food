@@ -10,6 +10,10 @@ div {
   padding: 0;
 }
 
+body {
+  background-color: #fff1f2;
+}
+
 .bg-nav {
   background-color: #b0efef !important;
 }
@@ -115,10 +119,6 @@ div {
   font-weight: 900;
 }
 
-.welcome-text {
-  background-color: white;
-}
-
 @media only screen and (max-width: 768px) {
   .welcome-text {
     font-size: 28px;
@@ -132,6 +132,9 @@ div {
 @media only screen and (min-width: 769px) {
   .welcome-text-bg {
     background: #ffb4bb;
+  }
+  .welcome-text {
+    background-color: #fff1f2;
   }
   .link-box {
     height: 120px;

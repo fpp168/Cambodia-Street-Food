@@ -82,8 +82,6 @@ div {
 }
 
 .link-box {
-  height: 120px;
-  width: 120px;
   background-color: #feffbf;
   border-radius: 15px;
 }
@@ -125,11 +123,19 @@ div {
   .welcome-text {
     font-size: 28px;
   }
+  .link-box {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
   .welcome-text-bg {
     background: #ffb4bb;
+  }
+  .link-box {
+    height: 120px;
+    width: 120px;
   }
 }
 /*# sourceMappingURL=main.css.map */

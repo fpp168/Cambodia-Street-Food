@@ -56,6 +56,11 @@ body {
           filter: invert(100%) drop-shadow(5px 5px 5px black);
 }
 
+a .img-hover:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
 .dropdown-menu {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;

@@ -3,6 +3,11 @@
   src: url("../fonts/Quicksand-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: "league";
+  src: url("../fonts/LeagueSpartan-Bold.otf");
+}
+
 footer,
 body,
 div {
@@ -77,7 +82,8 @@ body {
 .body h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  color: #ffb4bb;
+  color: #949394;
+  font-family: "league" !important;
 }
 
 .nav-flag {

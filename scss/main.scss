@@ -2,13 +2,18 @@ $navColor: #b0efef;
 $actColor: #d2292d;
 $hovTxtColor: white;
 $navTxtColor: black;
-$homeh1: #ffb4bb;
+$homeh1: #949394;
 $bodyFont: "special";
 $backgroundcol: white;
 
 @font-face {
   font-family: "special";
   src: url("../fonts/Quicksand-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "league";
+  src: url("../fonts/LeagueSpartan-Bold.otf");
 }
 
 footer,
@@ -84,6 +89,7 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: $homeh1;
+    font-family: "league" !important;
   }
 }
 

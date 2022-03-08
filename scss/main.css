@@ -8,6 +8,14 @@
   src: url("../fonts/LeagueSpartan-Bold.otf");
 }
 
+.league {
+  font-family: "league";
+}
+
+.special {
+  font-family: "special";
+}
+
 footer,
 body,
 div {
@@ -17,6 +25,19 @@ div {
 
 body {
   background-color: white;
+}
+
+.bg-item {
+  background-color: #feffbf;
+}
+
+.bg-item div.league a {
+  color: #949394;
+}
+
+.bg-item div.special {
+  color: #a6a6a6;
+  font-size: 14px;
 }
 
 .bg-nav {
@@ -137,6 +158,9 @@ a .img-hover:hover {
   .link-box {
     height: 100px;
     width: 100px;
+  }
+  .bg-item div.special {
+    font-size: 12px;
   }
 }
 

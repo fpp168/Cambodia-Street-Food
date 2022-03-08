@@ -5,6 +5,9 @@ $navTxtColor: black;
 $homeh1: #949394;
 $bodyFont: "special";
 $backgroundcol: white;
+$boxbgcol: #feffbf;
+$boxheadcol: #949394;
+$boxbodycol: #a6a6a6;
 
 @font-face {
   font-family: "special";
@@ -16,6 +19,14 @@ $backgroundcol: white;
   src: url("../fonts/LeagueSpartan-Bold.otf");
 }
 
+.league {
+  font-family: "league";
+}
+
+.special {
+  font-family: "special";
+}
+
 footer,
 body,
 div {
@@ -25,6 +36,17 @@ div {
 
 body {
   background-color: $backgroundcol;
+}
+
+.bg-item {
+  background-color: $boxbgcol;
+  div.league a {
+    color: $boxheadcol;
+  }
+  div.special {
+    color: $boxbodycol;
+    font-size: 14px;
+  }
 }
 
 .bg-nav {
@@ -142,6 +164,11 @@ a {
   .link-box {
     height: 100px;
     width: 100px;
+  }
+  .bg-item {
+    div.special {
+      font-size: 12px;
+    }
   }
 }
 

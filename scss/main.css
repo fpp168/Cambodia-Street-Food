@@ -12,6 +12,10 @@
   color: #a6a6a6;
 }
 
+.bg-item-1 {
+  background-color: #feffbf !important;
+}
+
 .bg-item-2 {
   background-color: #fde8ea !important;
 }

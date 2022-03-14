@@ -8,6 +8,18 @@
   src: url("../fonts/LeagueSpartan-Bold.otf");
 }
 
+.graybody {
+  color: #a6a6a6;
+}
+
+.bg-item-2 {
+  background-color: #fde8ea !important;
+}
+
+.bg-item-3 {
+  background-color: #c5fafa !important;
+}
+
 .league {
   font-family: "league";
 }
@@ -149,6 +161,11 @@ a .img-hover:hover {
   color: black;
   font-size: 14px;
   font-weight: 900;
+}
+
+.olfaq ol li {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 768px) {
